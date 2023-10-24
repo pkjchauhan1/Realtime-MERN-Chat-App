@@ -16,7 +16,9 @@ import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
 
-const ENDPOINT = "https://realtime-mern-chat-app-production.up.railway.app/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://realtime-mern-chat-app-production.up.railway.app/";
+
+// "https://talk-a-tive.herokuapp.com"; -> After deployment
 
 var socket, selectedChatCompare;
 
