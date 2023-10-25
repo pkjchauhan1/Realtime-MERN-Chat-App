@@ -1,5 +1,5 @@
 {
-  "name": "chatapp",
+  "name": "conversa",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,7 +10,9 @@
   },
   "keywords": [
     "mern",
-    "chat-app"
+    "chat app",
+    "conversa",
+    "messaging app"
   ],
   "author": "Pankaj Chauhan",
   "license": "ISC",
