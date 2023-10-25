@@ -142,7 +142,7 @@ function SideDrawer() {
           </Button>
         </Tooltip>
         <Text fontSize="2xl" fontFamily="Work sans">
-          Talk-A-Tive
+          Conversa
         </Text>
         <div>
           <Menu>
@@ -202,7 +202,9 @@ function SideDrawer() {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
-              <Button onClick={handleSearch}>Go</Button>
+              <Button colorScheme="green" onClick={handleSearch}>
+                Go
+              </Button>
             </Box>
             {loading ? (
               <ChatLoading />

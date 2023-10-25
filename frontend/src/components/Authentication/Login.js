@@ -98,7 +98,7 @@ const Login = () => {
         </InputGroup>
       </FormControl>
       <Button
-        colorScheme="blue"
+        colorScheme="messenger"
         width="100%"
         style={{ marginTop: 15 }}
         onClick={submitHandler}
@@ -115,7 +115,7 @@ const Login = () => {
           setPassword("123456");
         }}
       >
-        Get Guest User Credentials
+        Login as Guest User
       </Button>
     </VStack>
   );

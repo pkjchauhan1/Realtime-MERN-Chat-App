@@ -132,7 +132,7 @@ const Signup = () => {
   return (
     <VStack spacing="5px">
       <FormControl id="first-name" isRequired>
-        <FormLabel>Name</FormLabel>
+        <FormLabel>Username</FormLabel>
         <Input
           placeholder="Enter Your Name"
           onChange={(e) => setName(e.target.value)}
@@ -186,7 +186,7 @@ const Signup = () => {
         />
       </FormControl>
       <Button
-        colorScheme="blue"
+        colorScheme="messenger"
         width="100%"
         style={{ marginTop: 15 }}
         onClick={submitHandler}
