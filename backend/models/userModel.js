@@ -10,7 +10,7 @@ const userSchema = mongoose.Schema(
       type: "String",
       required: true,
       default:
-        "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+        "https://icon-library.com/images/user-icon-image/user-icon-image-20.jpg",
     },
     isAdmin: {
       type: Boolean,

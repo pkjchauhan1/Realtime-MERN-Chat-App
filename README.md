@@ -13,7 +13,7 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 
 ## Demo
 
-https://talk-a-tive.herokuapp.com/
+https://realtime-mern-chat-app-production.up.railway.app/
 
 ## Run Locally
 
